@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "8ff5e2a9-f1bc-42eb-806b-5c051486f4e1",
+  "alias": "UpperBannerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "UpperBanner"
+      },
+      "description": {
+        "default": "UpperBanner description"
+      },
+      "officeFabricIconFontName": "TransitionPop",
+      "properties": {
+        "description": "UpperBanner",
+        "InterchangingBannerListId": "cf332302-a1ae-47a4-8e96-79b33c9498d8",
+        "SlideInterval": 3000,
+        "AmountOfPictures": 3
+      }
+    }
+  ]
+}

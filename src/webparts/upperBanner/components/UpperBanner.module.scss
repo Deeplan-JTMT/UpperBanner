@@ -1,0 +1,105 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+:global #workbenchPageContent {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+
+  & > div {
+    & > div {
+      overflow: visible;
+
+      & > div {
+        overflow: visible;
+        padding: 0;
+
+        .CanvasComponent {
+          .CanvasZone {
+            margin: auto;
+            padding-left: 15px;
+          }
+
+          .CanvasZone--noMargin {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+:global #workbenchPageContent {
+  .CanvasComponent {
+    .CanvasZone {
+      max-width: 100%;
+      padding-left: 0 !important;
+      padding-right: 0;
+
+      .CanvasSection {
+        padding-left: 0;
+        padding-right: 0;
+
+        .ControlZone {
+          padding: 0;
+
+          .CanvasControlToolbar {
+            left: -32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.upperBanner {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.Container {
+  height: 17rem;
+  width: 100%;
+}
+
+.Buttons {
+  color: rgb(255, 255, 255) !important;
+  background-color: none;
+}
+
+.Buttons:hover {
+  // opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.445);
+}
