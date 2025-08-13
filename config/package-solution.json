@@ -3,7 +3,7 @@
   "solution": {
     "name": "upper-banner-client-side-solution",
     "id": "4f262abe-9795-4d6c-a336-6671261d2bb8",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
